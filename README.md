@@ -1,1 +1,1 @@
-# BoJ_solve
+# KangSeumgMin
