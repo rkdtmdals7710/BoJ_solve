@@ -15,11 +15,11 @@ int countOne(string s){
 }
 
 int solution(int n) {
-    bitset<8> binary(n);
+    bitset<20> binary(n);
     int cnt = countOne(binary.to_string());
     
     while(++n){
-        bitset<8> tmp(n);
+        bitset<20> tmp(n);
         if(cnt == countOne(tmp.to_string()))
             return n;
     }
